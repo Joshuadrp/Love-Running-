@@ -4,12 +4,22 @@
     box-sizing: border-box;
 }
 
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color:#3a3a3a
+}
+
 header{
  background-color: lightcoral;   
 }
 
 main{
     background-color: lightblue;
+    /* Make main element take surplus space to send footer down */
+    flex: 1 0 auto; /* This is shorthand for flexbox, first is flew grow, second is shrink and third is basis*/
 }
 
 footer{
