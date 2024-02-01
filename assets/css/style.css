@@ -36,6 +36,21 @@ h1{
     letter-spacing: 2px;
     color: #252525
 }
+
+#menu {
+    list-style-type: none;
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active{
+    border-bottom: 1px solid #3a3a3a;
+}
+
 main{
     background-color: lightblue;
     /* Make main element take surplus space to send footer down */
