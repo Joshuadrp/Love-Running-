@@ -1,5 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 *{
     padding:0;
@@ -19,7 +20,9 @@ body{
 header{
  background-color: lightcoral;   
 }
-
+h1{
+    font-family: 'Oswald', sans-serif;
+}
 main{
     background-color: lightblue;
     /* Make main element take surplus space to send footer down */
