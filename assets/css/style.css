@@ -92,6 +92,11 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
 }
+
+hr{
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
 /* Hero section */
 #hero{
     height: 600px;
@@ -115,6 +120,43 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
+
+/* reasons section */
+
+#reasons{
+    width: 90%;
+    /* background-color: lightblue; */
+    margin: 20px auto 20px;
+}
+
+#reasons > h2{
+    margin: 20px auto 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+/* benefits */
+
+
+#benefits-physical > div{
+    padding: 0 20px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+#benefits-physical > div > p{
+    padding: 0 20px;
+}
+
+#benefits-mental > div{
+    padding: 0 20px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+#benefits-mental > div > p{
+    padding: 0 20px;
+}
+
 
 /* Footer */
 #sn{
